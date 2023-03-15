@@ -11,7 +11,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Changes Volume Bar to A/V equipment-alike, located at the bottom" />
+            android:value="Changes Volume Bar to A/V equipment-alike, located at the top" />
         <meta-data
             android:name="xposedminversion"
             android:value="30" />
