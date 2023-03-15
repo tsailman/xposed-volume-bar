@@ -50,7 +50,7 @@ public class Module implements IXposedHookZygoteInit, IXposedHookInitPackageReso
                         Window wnd = dlg.getWindow();
                         wnd.setBackgroundDrawable(new ColorDrawable(0xE0101010));
                         WindowManager.LayoutParams lp = wnd.getAttributes();
-                        lp.gravity = Gravity.BOTTOM;
+                        lp.gravity = Gravity.TOP;
                         lp.width = ViewGroup.LayoutParams.MATCH_PARENT;
                         wnd.setAttributes(lp);
                     }
